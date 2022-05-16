@@ -238,4 +238,229 @@ $('#card2').click(function() {
       }
     }
   });
+  $('#card5').click(function() {
+    counter++;
+    $('#card5Src').attr('src', kakashi.cardFace);
+    if (guess1 === 0) {
+      guess1 = kakashi.cardFace;
+      guess1id = '#card5Src';
+    } else if (guess1 !== 0) {
+      guess2 = kakashi.cardFace;
+      guess2id = '#card5Src';
+    }
+    if (guess2 !== 0) {
+      if (guess1 === guess2) {
+        guess1 = 0;
+        guess2 = 0;
+        
+      }
+      else {
+        guess1 = 0;
+        guess2 = 0;
+        // $('#response').html("<span id='wrong'><h3>You guessed incorrect. Click here to try again.</h3></span>");
+        // $('#wrong').click(function() {
+          $('#response').html("");
+          $(guess1id).attr('src', '');
+          $(guess2id).attr('src', '');
+        // });
+      }
+    }
+  });
+  $('#card66').click(function() {
+    counter++;
+    $('#card14Src').attr('src', kakashi.cardFace);
+    if (guess1 === 0) {
+      guess1 = kakashi.cardFace;
+      guess1id = '#card14Src';
+    } else if (guess1 !== 0) {
+      guess2 = kakashi.cardFace;
+      guess2id = '#card14Src';
+    }
+    if (guess2 !== 0) {
+      if (guess1 === guess2) {
+        guess1 = 0;
+        guess2 = 0;
+        
+      }
+      else {
+        guess1 = 0;
+        guess2 = 0;
+        // $('#response').html("<span id='wrong'><h3>You guessed incorrect. Click here to try again.</h3></span>");
+        // $('#wrong').click(function() {
+          $('#response').html("");
+          $(guess1id).attr('src', '');
+          $(guess2id).attr('src', '');
+        // });
+      }
+    }
+  });
+  $('#card6').click(function() {
+    counter++;
+    $('#card6Src').attr('src', kaneki.cardFace);
+    if (guess1 === 0) {
+      guess1 = kaneki.cardFace;
+      guess1id = '#card6Src';
+    } else if (guess1 !== 0) {
+      guess2 = kaneki.cardFace;
+      guess2id = '#card6Src';
+    }
+    if (guess2 !== 0) {
+      if (guess1 === guess2) {
+        guess1 = 0;
+        guess2 = 0;
+        
+      }
+      else {
+        guess1 = 0;
+        guess2 = 0;
+        // $('#response').html("<span id='wrong'><h3>You guessed incorrect. Click here to try again.</h3></span>");
+        // $('#wrong').click(function() {
+          $('#response').html("");
+          $(guess1id).attr('src', '');
+          $(guess2id).attr('src', '');
+        // });
+      }
+    }
+  });
+  $('#card22').click(function() {
+    counter++;
+    $('#card10Src').attr('src', kaneki.cardFace);
+    if (guess1 === 0) {
+      guess1 = kaneki.cardFace;
+      guess1id = '#card10Src';
+    } else if (guess1 !== 0) {
+      guess2 = kaneki.cardFace;
+      guess2id = '#card10Src';
+    }
+    if (guess2 !== 0) {
+      if (guess1 === guess2) {
+        guess1 = 0;
+        guess2 = 0;
+        
+      }
+      else {
+        guess1 = 0;
+        guess2 = 0;
+        // $('#response').html("<span id='wrong'><h3>You guessed incorrect. Click here to try again.</h3></span>");
+        // $('#wrong').click(function() {
+          $('#response').html("");
+          $(guess1id).attr('src', '');
+          $(guess2id).attr('src', '');
+        // });
+      }
+    }
+  });
+  $('#card7').click(function() {
+    counter++;
+    $('#card7Src').attr('src', kise.cardFace);
+    if (guess1 === 0) {
+      guess1 = kise.cardFace;
+      guess1id = '#card7Src';
+    } else if (guess1 !== 0) {
+      guess2 = kise.cardFace;
+      guess2id = '#card7Src';
+    }
+    if (guess2 !== 0) {
+      if (guess1 === guess2) {
+        guess1 = 0;
+        guess2 = 0;
+        
+      }
+      else {
+        guess1 = 0;
+        guess2 = 0;
+        // $('#response').html("<span id='wrong'><h3>You guessed incorrect. Click here to try again.</h3></span>");
+        // $('#wrong').click(function() {
+          $('#response').html("");
+          $(guess1id).attr('src', '');
+          $(guess2id).attr('src', '');
+        // });
+      }
+    }
+  });
+  $('#card88').click(function() {
+    counter++;
+    $('#card16Src').attr('src', kise.cardFace);
+    if (guess1 === 0) {
+      guess1 = kise.cardFace;
+      guess1id = '#card16Src';
+    } else if (guess1 !== 0) {
+      guess2 = kise.cardFace;
+      guess2id = '#card16Src';
+    }
+    if (guess2 !== 0) {
+      if (guess1 === guess2) {
+        guess1 = 0;
+        guess2 = 0;
+        
+      }
+      else {
+        guess1 = 0;
+        guess2 = 0;
+        // $('#response').html("<span id='wrong'><h3>You guessed incorrect. Click here to try again.</h3></span>");
+        // $('#wrong').click(function() {
+          $('#response').html("");
+          $(guess1id).attr('src', '');
+          $(guess2id).attr('src', '');
+        // });
+      }
+    }
+  });
+  $('#card8').click(function() {
+    counter++;
+    $('#card8Src').attr('src', naruto.cardFace);
+    if (guess1 === 0) {
+      guess1 = naruto.cardFace;
+      guess1id = '#card8Src';
+    } else if (guess1 !== 0) {
+      guess2 = naruto.cardFace;
+      guess2id = '#card8Src';
+    }
+    if (guess2 !== 0) {
+      if (guess1 === guess2) {
+        guess1 = 0;
+        guess2 = 0;
+        
+      }
+      else {
+        guess1 = 0;
+        guess2 = 0;
+        // $('#response').html("<span id='wrong'><h3>You guessed incorrect. Click here to try again.</h3></span>");
+        // $('#wrong').click(function() {
+          $('#response').html("");
+          $(guess1id).attr('src', '');
+          $(guess2id).attr('src', '');
+        // });
+      }
+    }
+  });
+  $('#card33').click(function() {
+    counter++;
+    $('#card11Src').attr('src', naruto.cardFace);
+    if (guess1 === 0) {
+      guess1 = naruto.cardFace;
+      guess1id = '#card11Src';
+    } else if (guess1 !== 0) {
+      guess2 = naruto.cardFace;
+      guess2id = '#card11Src';
+    }
+    if (guess2 !== 0) {
+      if (guess1 === guess2) {
+        guess1 = 0;
+        guess2 = 0;
+        
+      }
+      else {
+        guess1 = 0;
+        guess2 = 0;
+        // $('#response').html("<span id='wrong'><h3>You guessed incorrect. Click here to try again.</h3></span>");
+        // $('#wrong').click(function() {
+          $('#response').html("");
+          $(guess1id).attr('src', '');
+          $(guess2id).attr('src', '');
+        // });
+      }
+    }
+  });
+
 });

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+  }
+  .container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  
+  }
+  h1 {
+    color: white;
+  }
+  .card1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+    cursor: pointer;
+    transition: 0.3 all ease;
+  }
+  .card2 {
+    height: 180px;
+    width: 140px;
+    background-color: darkred;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+  }
+  .card2:hover {
+    transform: scale(1.03);
+  }
+  .card2 img {
+    width: 100px;
+    max-height: 240px;
+    transition: 0.3 all ease;
+    
+  }
+  /* .akashi {
+    display: none;
+  }
+  .akatsuki {
+    display: none;
+  }
+  .aomine {
+    display: none;
+  }
+  .eren {
+    display: none;
+  }
+  .kakashi {
+    display: none;
+  }
+  .kaneki {
+    display: none;
+  }
+  .kise {
+    display: none;
+  }
+  .naruto {
+    display: none;
+  }
+  .akashi1 {
+    display: none;
+  }
+  .akatsuki1 {
+    display: none;
+  }
+  .aomine1 {
+    display: none;
+  }
+  .eren1 {
+    display: none;
+  }
+  .kakashi1 {
+    display: none;
+  }
+  .kaneki1 {
+    display: none;
+  }
+  .kise1 {
+    display: none;
+  }
+  .naruto1 {
+    display: none;
+  } */
+  .btn {
+    text-align: center;
+  }
